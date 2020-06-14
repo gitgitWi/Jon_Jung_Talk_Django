@@ -4,5 +4,3 @@ tensorflow
 numpy
 pandas
 transformers
-os
-re
