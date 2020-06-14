@@ -1,1 +1,1 @@
-web:gunicorn app:config --log-file=-
+web:gunicorn app:pybo --log-file=-
