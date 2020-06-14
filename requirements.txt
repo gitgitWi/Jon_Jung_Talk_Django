@@ -1,0 +1,8 @@
+django
+gunicorn
+tensorflow
+numpy
+pandas
+transformers
+os
+re
