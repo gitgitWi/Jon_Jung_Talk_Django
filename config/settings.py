@@ -1,10 +1,6 @@
 import os
 import django_heroku
 
-# MIDDLEWARE_CLASSES = (
-#     # Simplified static file serving.
-#     'whitenoise.middleware.WhiteNoiseMiddleware'
-# )
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
