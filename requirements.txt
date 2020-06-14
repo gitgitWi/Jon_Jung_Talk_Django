@@ -6,3 +6,5 @@ numpy
 pandas
 transformers
 whitenoise
+markdown
+psycopg2
