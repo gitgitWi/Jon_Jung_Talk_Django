@@ -46,6 +46,7 @@
 - <파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문(2017)>
 - <파이썬 머신러닝 완벽 가이드(2020)>
 - <PyTorch로 시작하는 딥 러닝 입문(wikidocs)>
+- <JUMP TO DJANGO(wikidocs)>
 - https://github.com/kimwoonggon/publicservantAI
 - https://www.youtube.com/watch?v=Vj55zaDvn4Q 등 다수 유튜브 세미나/강의
 
@@ -155,6 +156,8 @@
 
 ![](https://user-images.githubusercontent.com/57997672/84604357-50c8f800-aed0-11ea-83d0-300559cb40bc.png)
 
+<br />
+
 ### 04-1. Modeling, Word Tokenizing 추가 학습 (6.1.~6.12.)
 
 ***Word Tokenizers***
@@ -168,14 +171,31 @@
 
 #### Modeling
 
-***CNN, KoBERT***
+***CNN***
+
+![C3NN_seq40_epoch500_BATCH16_SCC_model](https://user-images.githubusercontent.com/57997672/84605874-d605da00-aedb-11ea-9aa9-a9238789c41c.png)
+
+![C3NN_seq40_epoch500_BATCH16_SCC](https://user-images.githubusercontent.com/57997672/84605911-30069f80-aedc-11ea-869e-f1e96c887e26.png)
+
+![SimpleCNN_seq40_epoch500_batches32_model](https://user-images.githubusercontent.com/57997672/84605904-1ebd9300-aedc-11ea-806c-bef39b3796b8.png)
+
+![SimpleCNN_seq40_epoch300_batches32_scc](https://user-images.githubusercontent.com/57997672/84605902-1d8c6600-aedc-11ea-9344-2106e53b59d5.png)
+
+단순한 모델이 오히려 더 잘 나옴
+
+***KoBERT***
+
+![KoBERT_EPOCHS100_SEQ_LEN512_BATCH_SIZE20](https://user-images.githubusercontent.com/57997672/84605979-c20ea800-aedc-11ea-8bf3-b9b49d9e55e0.png)
+
+![Plot_KoBERT_EPOCHS100_SEQ_LEN512_BATCH_SIZE20](https://user-images.githubusercontent.com/57997672/84605980-c2a73e80-aedc-11ea-9e72-062c5f836e79.png)
+
+![Screen Shot 2020-06-14 at 23 10 24](https://user-images.githubusercontent.com/57997672/84606028-1fa2f480-aedd-11ea-8705-9432fba08c1a.png)
+![Screen Shot 2020-06-14 at 23 11 42](https://user-images.githubusercontent.com/57997672/84606030-20d42180-aedd-11ea-8dec-cedbb4ead30b.png)
+![Screen Shot 2020-06-14 at 23 12 08](https://user-images.githubusercontent.com/57997672/84606031-20d42180-aedd-11ea-9345-e43cb5bd7f47.png)
+![Screen Shot 2020-06-14 at 23 12 35](https://user-images.githubusercontent.com/57997672/84606032-216cb800-aedd-11ea-90fb-ef91fadcd2cc.png)
 
 
-***RNN***
-
-https://beta.deepnote.com/project/35dabe6d-f7f9-4f66-ae2f-9b6e9c23b56e
-
-LSTM Model
+***LSTM RNN***
 
 ```python
 SentimentRNN(
@@ -190,16 +210,27 @@ SentimentRNN(
 - Okt corpus
 - Sentencepiece corpus
 
+<br />
 
 
 ### 04-2. 웹 페이지 구현 (6.1.~6.14.)
 
+- Python, Django
+  - MVC Pattern
+  - PyChame PROFESSIONAL 2020.01
+- SQLite, PostgreSQL
+- Heroku
+
+![dajngoboard0](https://user-images.githubusercontent.com/57997672/84605838-79a2ba80-aedb-11ea-97a2-ccae65cd47e8.png)
+
+
+![dajngoboard](https://user-images.githubusercontent.com/57997672/84605856-aa82ef80-aedb-11ea-9e95-9b20b0123d6a.png)
 
 ---
 
 ## 아쉬운 점
 
-- Labeling Data가 부족해, 만족할만한 정확도를 만들어 낼 수 없었습니다.
+- 부족한 Labeling Data, 부족한 정확도
   - 정확도 문제 & 시간 부족으로, 초기 계획했던 것처럼, 2천개 샘플로 학습 - 나머지 데이터 중 일부 예측 - 틀린 부분만 수정해 모델 업데이트 - 정확도 높인 모델로 또 남은 데이터 예측 반복하는 작업은 아예 시도하지도 못했습니다.
 
 - 채팅 보조 기능 추가 불가
