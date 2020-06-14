@@ -1,0 +1,28 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 16:08:40
+Django version 3.0.6, using settings 'config.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 16:14:22
+Django version 3.0.6, using settings 'config.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 16:17:24
+Django version 3.0.6, using settings 'config.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 16:24:45
+Django version 3.0.6, using settings 'config.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
