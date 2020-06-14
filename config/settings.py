@@ -1,9 +1,9 @@
 import os
 
-MIDDLEWARE_CLASSES = (
-    # Simplified static file serving.
-    'whitenoise.middleware.WhiteNoiseMiddleware'
-)
+# MIDDLEWARE_CLASSES = (
+#     # Simplified static file serving.
+#     'whitenoise.middleware.WhiteNoiseMiddleware'
+# )
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -120,4 +120,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
