@@ -26,8 +26,7 @@
 
 분노의 타자를 치고나서도 한번더 생각할 수 있도록, 내가 무심코 한 말이 상대에게 오해가 되지 않도록, 존중톡이 도와드립니다.
 
-
-
+<br />
 
 ---
 
@@ -35,7 +34,7 @@
 
 - WebPage : https://jonjung.herokuapp.com
 - Github : https://github.com/gitgitWi/Jon_Jung_Talk_Django
-- DeepNote : https://beta.deepnote.com/project/35dabe6d-f7f9-4f66-ae2f-9b6e9c23b56e#%2F01_notebooks%2F0522_WebScrapping.ipynb
+- DeepNote : https://beta.deepnote.com/project/35dabe6d-f7f9-4f66-ae2f-9b6e9c23b56e
 
 
 ## 참고자료
