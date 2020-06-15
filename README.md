@@ -2,7 +2,7 @@
 
 ## ***Team234*** 
 
-![Team234](https://user-images.githubusercontent.com/57997672/84602970-e7dc8280-aec5-11ea-8aa3-9da5f8288388.png)
+![Emotitalk_project](https://user-images.githubusercontent.com/57997672/84607757-081e3880-aeea-11ea-8805-4adaf2a9cd0b.png)
 
 - 김태호 : Web Scrapping, Data Labeling, PyTorch-RNN Modeling
 - 박혜진 : Data Labeling, Django 기반 웹페이지 제작
