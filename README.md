@@ -229,11 +229,21 @@ epochs 10
 
 ![image](https://user-images.githubusercontent.com/57997672/84607612-2f283a80-aee9-11ea-83b9-57a450534f31.png)
 
+<br />
+
 epochs 100
 
 ![image](https://user-images.githubusercontent.com/57997672/84607982-30f2fd80-aeeb-11ea-8851-ef61b74ff78f.png)
 
 ![image](https://user-images.githubusercontent.com/57997672/84607988-36e8de80-aeeb-11ea-9312-48af4edec573.png)
+
+<br />
+
+Validation Set
+
+![image](https://user-images.githubusercontent.com/57997672/84610667-5c2f1a00-aef6-11ea-98b9-128a4e375d15.png)
+
+- Percentage Correct: 0.392593
 
 <br />
 
