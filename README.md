@@ -173,6 +173,8 @@
 
 ***CNN***
 
+- Sentencepiece corpus
+
 ![C3NN_seq40_epoch500_BATCH16_SCC_model](https://user-images.githubusercontent.com/57997672/84605874-d605da00-aedb-11ea-9aa9-a9238789c41c.png)
 
 ![C3NN_seq40_epoch500_BATCH16_SCC](https://user-images.githubusercontent.com/57997672/84605911-30069f80-aedc-11ea-869e-f1e96c887e26.png)
@@ -184,6 +186,8 @@
 단순한 모델이 오히려 더 잘 나옴
 
 ***KoBERT***
+
+- Sentencepiece corpus
 
 ![KoBERT_EPOCHS100_SEQ_LEN512_BATCH_SIZE20](https://user-images.githubusercontent.com/57997672/84605979-c20ea800-aedc-11ea-8bf3-b9b49d9e55e0.png)
 
@@ -207,8 +211,15 @@ SentimentRNN(
 )
 ```
 
-- Okt corpus
 - Sentencepiece corpus
+
+![image](https://user-images.githubusercontent.com/57997672/84607444-3dc22200-aee8-11ea-943d-287fe9f784b3.png)
+
+![image](https://user-images.githubusercontent.com/57997672/84607465-5f230e00-aee8-11ea-8194-d4cbfd80a605.png)
+
+![image](https://user-images.githubusercontent.com/57997672/84607457-53374c00-aee8-11ea-8749-665d6f92f21d.png)
+
+![image](https://user-images.githubusercontent.com/57997672/84607469-664a1c00-aee8-11ea-841c-12dfcfb95f25.png)
 
 <br />
 
@@ -232,6 +243,7 @@ SentimentRNN(
 
 - 부족한 Labeling Data, 부족한 정확도
   - 정확도 문제 & 시간 부족으로, 초기 계획했던 것처럼, 2천개 샘플로 학습 - 나머지 데이터 중 일부 예측 - 틀린 부분만 수정해 모델 업데이트 - 정확도 높인 모델로 또 남은 데이터 예측 반복하는 작업은 아예 시도하지도 못했습니다.
+  - 적어도 초기 데이터가 1~2만개 정도는 되었어야 하지 않나 하는 아쉬움이 남습니다. BERT, GPT 등 최근 발표되는 모델들은 80~90% 정확도를 위해 적게는 수십 Gb에서 많게는 수백 Gb까지 사용하는데, 저희는 겨우 2천개 샘플 데이터로 성능을 만들려고 했던 것이 무리였던 것 같습니다.
 
 - 채팅 보조 기능 추가 불가
   - Heroku 호스팅의 무료 용량 한도는 500MB
