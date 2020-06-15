@@ -40,6 +40,7 @@
 
 ## 참고자료
 
+### Books
 - <김기현의 자연어 처리 딥러닝 캠프; 파이토치편(2019)>
 - <한국어 임베딩(2019)>
 - <텐서플로와 머신러닝으로 시작하는 자연어 처리(2019)>
@@ -47,8 +48,15 @@
 - <파이썬 머신러닝 완벽 가이드(2020)>
 - <PyTorch로 시작하는 딥 러닝 입문(wikidocs)>
 - <JUMP TO DJANGO(wikidocs)>
-- https://github.com/kimwoonggon/publicservantAI
+
+### Youtube
+
 - https://www.youtube.com/watch?v=Vj55zaDvn4Q 등 다수 유튜브 세미나/강의
+
+### Articles
+- https://github.com/kimwoonggon/publicservantAI
+- https://medium.com/@lamiae.hana/a-step-by-step-guide-on-sentiment-analysis-with-rnn-and-lstm-3a293817e314
+- https://machinelearningmastery.com/diagnose-overfitting-underfitting-lstm-models/
 
 
 ---
@@ -213,13 +221,17 @@ SentimentRNN(
 
 - Sentencepiece corpus
 
-![image](https://user-images.githubusercontent.com/57997672/84607444-3dc22200-aee8-11ea-943d-287fe9f784b3.png)
+epochs 10
 
-![image](https://user-images.githubusercontent.com/57997672/84607465-5f230e00-aee8-11ea-8194-d4cbfd80a605.png)
+![image](https://user-images.githubusercontent.com/57997672/84607606-26376900-aee9-11ea-83d5-323015e38d5c.png)
 
-![image](https://user-images.githubusercontent.com/57997672/84607457-53374c00-aee8-11ea-8749-665d6f92f21d.png)
+![image](https://user-images.githubusercontent.com/57997672/84607612-2f283a80-aee9-11ea-83b9-57a450534f31.png)
 
-![image](https://user-images.githubusercontent.com/57997672/84607469-664a1c00-aee8-11ea-841c-12dfcfb95f25.png)
+epochs 100
+
+![image](https://user-images.githubusercontent.com/57997672/84607982-30f2fd80-aeeb-11ea-8851-ef61b74ff78f.png)
+
+![image](https://user-images.githubusercontent.com/57997672/84607988-36e8de80-aeeb-11ea-9312-48af4edec573.png)
 
 <br />
 
