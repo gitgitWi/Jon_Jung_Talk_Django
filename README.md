@@ -193,7 +193,25 @@
 
 ![SimpleCNN_seq40_epoch300_batches32_scc](https://user-images.githubusercontent.com/57997672/84605902-1d8c6600-aedc-11ea-9344-2106e53b59d5.png)
 
-단순한 모델이 오히려 더 잘 나옴
+- 단순한 모델이 그나마 더 잘 나옴
+
+- 기타 실패한 모델들
+
+![Azure_model1_Model1_seq100_epoch300_batch16](https://user-images.githubusercontent.com/57997672/84615321-b1255d00-af03-11ea-8794-72eac60e1b08.png)
+
+![Azure_model2_epoch300_seq200](https://user-images.githubusercontent.com/57997672/84615324-b4204d80-af03-11ea-8ed9-4e10cb202dc3.png)
+
+![Azure_model2_epoch500_seq200](https://user-images.githubusercontent.com/57997672/84615331-ba162e80-af03-11ea-9209-d4d97221b204.png)
+
+![Azure_model2_SimpleCNN_seq50_epoch500](https://user-images.githubusercontent.com/57997672/84615350-c4382d00-af03-11ea-8cd6-89a591124a96.png)
+
+![SimpleCNN_seq40_epoch500_batches32](https://user-images.githubusercontent.com/57997672/84615372-d1551c00-af03-11ea-9c18-55b15e945bea.png)
+
+![SimpleCNN_seq100_epoch500](https://user-images.githubusercontent.com/57997672/84615392-d7e39380-af03-11ea-8639-9cdca2389e9d.png)
+
+
+- 실패한 이유?
+
 
 ***KoBERT***
 
