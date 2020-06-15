@@ -255,7 +255,7 @@ Validation Set
   - PyChame PROFESSIONAL 2020.01
 - SQLite, PostgreSQL
 - Heroku
-- Bootstrap4
+- Bootstrap3
 
 ![bbsflowchart](https://user-images.githubusercontent.com/57997672/84607903-ccd03980-aeea-11ea-8765-08ac5c6890ad.png)
 
