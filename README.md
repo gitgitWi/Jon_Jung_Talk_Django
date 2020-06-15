@@ -51,7 +51,8 @@
 
 ### Youtube
 
-- https://www.youtube.com/watch?v=Vj55zaDvn4Q 등 다수 유튜브 세미나/강의
+- 미등록단어 문제 해결을 위한 비지도학습 기반 한국어자연어처리 방법론 및 응용 https://www.youtube.com/watch?v=Vj55zaDvn4Q, (Naver D2)
+- [토크ON세미나] 자연어 언어모델 ‘BERT’, https://www.youtube.com/playlist?list=PL9mhQYIlKEhcIxjmLgm9X5BUtW5jMLbZD, (SKT-Academy)
 
 ### Articles
 - https://github.com/kimwoonggon/publicservantAI
@@ -120,11 +121,15 @@
 
 - Django
 - Gunicorn
-- psycopg2 for PostgreSQL
+- psycopg2 (for PostgreSQL)
 
 ### Web Deploy
 
-- ***Heroku***
+- Heroku
+
+### 협업툴
+
+- Slack
 
 ---
 
@@ -174,8 +179,6 @@
 
 - 지도학습 방식 : Mecab (KoNLPy)
 - 비지도학습 방식 : SentencePiece (Google), Khaiii (Kakao Brain)
-
-
 
 #### Modeling
 
@@ -246,7 +249,6 @@ epochs 100
 
 ![bbsflowchart](https://user-images.githubusercontent.com/57997672/84607903-ccd03980-aeea-11ea-8765-08ac5c6890ad.png)
 
-
 ![dajngoboard](https://user-images.githubusercontent.com/57997672/84605856-aa82ef80-aedb-11ea-9e95-9b20b0123d6a.png)
 
 ---
@@ -255,7 +257,7 @@ epochs 100
 
 - 부족한 Labeling Data, 부족한 정확도
   - 정확도 문제 & 시간 부족으로, 초기 계획했던 것처럼, 2천개 샘플로 학습 - 나머지 데이터 중 일부 예측 - 틀린 부분만 수정해 모델 업데이트 - 정확도 높인 모델로 또 남은 데이터 예측 반복하는 작업은 아예 시도하지도 못했습니다.
-  - 적어도 초기 데이터가 1~2만개 정도는 되었어야 하지 않나 하는 아쉬움이 남습니다. BERT, GPT 등 최근 발표되는 모델들은 80~90% 정확도를 위해 적게는 수십 Gb에서 많게는 수백 Gb까지 사용하는데, 저희는 겨우 2천개 샘플 데이터로 성능을 만들려고 했던 것이 무리였던 것 같습니다.
+  - 적어도 초기 데이터가 1 ~ 2만개 정도는 되었어야 하지 않나 하는 아쉬움이 남습니다. BERT, GPT 등 최근 발표되는 모델들은 80 ~ 90% 정확도를 위해 적게는 수십 Gb에서 많게는 수백 Gb까지 사용하는데, 저희는 겨우 2천개 샘플 데이터로 성능을 만들려고 했던 것이 무리였던 것 같습니다.
 
 - 채팅 보조 기능 추가 불가
   - Heroku 호스팅의 무료 용량 한도는 500MB
