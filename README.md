@@ -232,7 +232,7 @@ SentimentRNN(
 - SQLite, PostgreSQL
 - Heroku
 
-![dajngoboard0](https://user-images.githubusercontent.com/57997672/84605838-79a2ba80-aedb-11ea-97a2-ccae65cd47e8.png)
+![bbsflowchart](https://user-images.githubusercontent.com/57997672/84607903-ccd03980-aeea-11ea-8765-08ac5c6890ad.png)
 
 
 ![dajngoboard](https://user-images.githubusercontent.com/57997672/84605856-aa82ef80-aedb-11ea-9e95-9b20b0123d6a.png)
